@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LapTrinhTrucQuan\\ThucHanhDay04\\ThucHanhDay04.csproj",
+      "projectUniqueName": "D:\\Layout\\ThucHanhDay04\\ThucHanhDay04.csproj",
       "projectName": "ThucHanhDay04",
-      "projectPath": "D:\\LapTrinhTrucQuan\\ThucHanhDay04\\ThucHanhDay04.csproj",
+      "projectPath": "D:\\Layout\\ThucHanhDay04\\ThucHanhDay04.csproj",
       "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "D:\\LapTrinhTrucQuan\\ThucHanhDay04\\obj\\",
+      "outputPath": "D:\\Layout\\ThucHanhDay04\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

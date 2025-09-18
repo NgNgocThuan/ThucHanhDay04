@@ -37,9 +37,5 @@ namespace ThucHanhDay04.Controllers
             return View(model);
         }
 
-        public IActionResult Order()
-        {
-            return View();
-        }
     }
 }
