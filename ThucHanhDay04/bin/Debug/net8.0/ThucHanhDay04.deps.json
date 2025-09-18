@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ThucHanhDay04/1.0.0": {
+        "runtime": {
+          "ThucHanhDay04.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ThucHanhDay04/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

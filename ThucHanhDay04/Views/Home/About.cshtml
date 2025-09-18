@@ -1,0 +1,37 @@
+﻿@model List<Product>
+@{
+	ViewData["Title"] = "Thông tin sản phẩm";
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr />
+<div class="container-fluid">
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th>Mã sản phẩm</th>
+				<th>Tên sản phẩm</th>
+				<th>Ảnh</th>
+				<th>Số lượng</th>
+				<th>Giá tiền</th>
+				<th>Chức năng</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach(var item in Model)
+			{
+				<tr>
+					<td>@item.ID</td>
+					<td>@item.Name</td>
+					<td><img src="@item.Image" , alt="PhotoProduct" class="img-fluid" /></td>
+					<td>@item.Soluong</td>
+					<td>@item.Price</td>
+					<td>
+						<button class="bg-primary">Sửa</button>
+						<button class="bg-Primary">Xóa</button>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>
